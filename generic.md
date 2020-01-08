@@ -8,7 +8,7 @@ nav-menu: true
 ---
 <!-- Main -->
 <div id="main">
-	<section id = Skills0>
+
 		<center>
 			<h1>Skills</h1>
 			<p>	
@@ -16,10 +16,10 @@ nav-menu: true
 			</p>
 		</center>
 		<br /> <br /> <br /> <br />
-	</section>
 
 
-	<section id = Skiils1>
+
+
 		<div class = "row">
 			<div class="3u 12u$(medium)">
 				<h3> Unity, C#</h3>
@@ -88,9 +88,9 @@ nav-menu: true
 			</div>
 
 		</div>
-	</section>
+
 		
-	<section id = Skiils2>
+
 		<div class = "row">
 			<div class="3u 12u$(medium)">
 				<h3> C++</h3>
@@ -123,13 +123,13 @@ nav-menu: true
 		
 		
 		</div>
-	</section>
+
 
 
 	<hr class="major" />
 
 
-	<section id = Experiences>
+
 		<center>
 			<h1>Experiences</h1>
 
@@ -181,5 +181,5 @@ nav-menu: true
 			</div>
 							
 		</div>
-	</section>
+
 </div>
