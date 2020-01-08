@@ -1,0 +1,24 @@
+---
+title: 신흥마을 AR PROJECT
+layout: post
+---
+
+<!-- Main -->
+<div id="main">
+
+	
+	<!-- Image -->
+	<image src = "/assets/images/shtown_ar.bmp" alt="">
+			<image src = "/assets/images/shtown0.gif" alt="">
+							<image src = "/assets/images/shtown1.gif" alt="">  
+															<image src = "/assets/images/Slide8.jpg" alt="">  
+																							<image src = "/assets/images/shtown2.gif" alt=""> 
+
+<hr class="major" />
+																							
+<!--video-->
+	<div class = "inner">
+		<span class="image fit">
+<iframe  width="1215" height="683" src="https://www.youtube.com/embed/qtNNs3--KmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</span>										
+	</div>
