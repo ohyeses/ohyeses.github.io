@@ -1,0 +1,22 @@
+title: Yerin OH
+subtitle: Portfolio
+email: ohyeses@naver.com
+description: Game Developer · App Developer · Creator
+baseurl:
+url: null
+author: Yerin OH
+country: 'Gwangju, Korea'
+phone: +82(010) 2772-4456
+tiles-source: pages
+tiles-count: 6
+500px_url: null
+facebook_url: null
+github_url: 'https://github.com/ohyeses'
+gitlab_url: 'https://gitlab.com/ohyeses'
+googleplus_url: null
+instagram_url: null
+pinterest_url: null
+slack_url: null
+markdown: kramdown
+sass:
+  style: compressed
