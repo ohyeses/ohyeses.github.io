@@ -18,7 +18,9 @@ nav-menu: true
 		<br /> <br /> <br /> <br />
 
 
-		<div class = "row">
+
+
+
 			<div class="3u 12u$(medium)">
 				<h3> Unity, C#</h3>
 				Newbie 📘  
@@ -85,11 +87,11 @@ nav-menu: true
 				</p>
 			</div>
 
-		</div>
+
 
 		
 
-		<div class = "row">
+
 			<div class="3u 12u$(medium)">
 				<h3> C++</h3>
 				<!--별 삭제						
@@ -120,11 +122,11 @@ nav-menu: true
 		
 		
 		
-		</div>
 
 
 
-	<hr class="major" />
+
+
 
 
 
@@ -135,7 +137,7 @@ nav-menu: true
 
 		<br> <br> <br>
 
-		<div class = "row">
+
 			<div>		
 				<a href="http://www.kjca.co.kr/" class="image">
 					<img src="assets/images/kukje.png" alt="" /> 
@@ -156,12 +158,12 @@ nav-menu: true
 
 			</div>
 							
-		</div>
+
 		
 		<br> <br>
 		
 		
-		<div class = "row">
+
 			<div>		
 				<a href="https://www.uokdc.com/" class="image">
 					<img src="assets/images/uok.png" alt="" /> 
@@ -178,6 +180,6 @@ nav-menu: true
 				곡성 신흥마을 AR MAP,  VR 어트랙션 롤러코스터 )에 참여했습니다.
 			</div>
 							
-		</div>
+
 
 </div>
