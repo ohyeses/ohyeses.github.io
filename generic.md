@@ -7,7 +7,7 @@ image: assets/images/pic11.jpg
 nav-menu: true
 ---
 <!-- Main -->
-<div id="main">
+<div id="main" class="alt">
 
 		<center>
 			<h1>Skills</h1>
@@ -16,8 +16,6 @@ nav-menu: true
 			</p>
 		</center>
 		<br /> <br /> <br /> <br />
-
-
 
 
 		<div class = "row">
