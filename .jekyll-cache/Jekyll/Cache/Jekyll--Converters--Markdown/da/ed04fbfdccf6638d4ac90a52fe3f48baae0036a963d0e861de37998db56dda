@@ -1,10 +1,4 @@
----
-title: TOEIC
-layout: landing
-image: assets/images/pic08.jpg
----
-
-<!-- Main -->
+I"b<!-- Main -->
 <div id="main">
 
 	
@@ -14,7 +8,9 @@ image: assets/images/pic08.jpg
             <div class="inner">
 							<!--이미지 꽉 채우고 싶을때-->
                 <span class="image fit">
-                    <img src="/assets/images/toeic.JPG" alt="">
+                    <img src="/assets/images/toeic.JPG" alt="" />
                 </span>
             </div>
         </section>
+</div>
+:ET
