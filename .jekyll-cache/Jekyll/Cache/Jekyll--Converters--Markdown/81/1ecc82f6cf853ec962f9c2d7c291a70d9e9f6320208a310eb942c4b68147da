@@ -1,12 +1,4 @@
----
-layout: post
-title: SKIILLS
-description: This is a quick overview of my main technical skill sets and tools I use.
-image: assets/images/pic11.jpg
-nav-menu: true
----
-
-<div id = "main2">
+I"<div class="inner">
 	
 		<center>
 			<h1>Skills</h1>
@@ -20,7 +12,7 @@ nav-menu: true
 
 
 	
-			<div class = "row">
+			<div class="row">
 				<div class="3u 12u$(medium)">
 					<h3> Unity, C#</h3>
 					Newbie 📘  
@@ -65,11 +57,10 @@ nav-menu: true
 
 			</div>
 
-
 	
 		
 	
-		<div class = "row">
+		<div class="row">
 			<div class="3u 12u$(medium)">
 				<h3> C++</h3>
 
@@ -101,9 +92,9 @@ nav-menu: true
 
 		</center>
 
-		<br> <br> <br>
+		<br /> <br /> <br />
 
-		<div class = "row">
+		<div class="row">
 			<div>		
 				<a href="http://www.kjca.co.kr/" class="image">
 					<img src="assets/images/kukje.png" alt="" /> 
@@ -117,19 +108,19 @@ nav-menu: true
 				<h5>
 					<a href="https://www.uokdc.com/">Kukje vocational school, 국제직업전문학교</a>
 				</h5>
-				<I>	May, 2019 - Nov, 2019 • 6 mos</I> <br>
-				<I>	Gwangju, Korea</I> <br> <br>
-				6개월동안 vr/ar 전문가 양성과정으로 <br>
+				<i>	May, 2019 - Nov, 2019 • 6 mos</i> <br />
+				<i>	Gwangju, Korea</i> <br /> <br />
+				6개월동안 vr/ar 전문가 양성과정으로 <br />
 				Unity와 Unreal Engine, 포토샵·일러스트·3ds Max를 배웠습니다.
 
 			</div>
 							
 		</div>
 		
-		<br> <br>
+		<br /> <br />
 		
 		
-		<div class = "row">
+		<div class="row">
 			<div>		
 				<a href="https://www.uokdc.com/" class="image">
 					<img src="assets/images/uok.png" alt="" /> 
@@ -140,12 +131,13 @@ nav-menu: true
 			<div>		
 				<h5>Trainee</h5>
 				<h5><a href="https://www.uokdc.com/">UOK</a></h5>
-				<I>	Jul, 2019 - Nov, 2019 • 4 mos</I> <br>
-				<I>	Gwangju, Korea</I> <br> <br>
-				(주)유오케이에서 실습생으로 여러 AR/VR 프로젝트( 송정역 시장 AR STREET, <br>
+				<i>	Jul, 2019 - Nov, 2019 • 4 mos</i> <br />
+				<i>	Gwangju, Korea</i> <br /> <br />
+				(주)유오케이에서 실습생으로 여러 AR/VR 프로젝트( 송정역 시장 AR STREET, <br />
 				곡성 신흥마을 AR MAP,  VR 어트랙션 롤러코스터 )에 참여했습니다.
 			</div>
 							
 		</div>
 	
 </div>
+:ET
