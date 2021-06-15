@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Yerin OH</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
+</head>
+
+
+<body>
+
+    <!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header">
+	<a href="/" class="logo"><strong>Yerin OH</strong> <span>Portfolio</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		        <li><a href="/">Home</a></li>
+	    	
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		
+		    
+		
+		    
+		        <li><a href="/all_posts.html">All posts</a></li>
+		    
+		
+		    
+		        <li><a href="/elements.html">About me</a></li>
+		    
+		
+		    
+		        <li><a href="/generic.html">SKIILLS</a></li>
+		    
+		
+		    
+		
+		    
+		        <li><a href="/landing.html">Works</a></li>
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>
+</nav>
+ 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>머신러닝을 활용한 야구 승패예측 서비스</h1>
+		</header>
+		
+		<p><!-- Main -->
+<div id="main09">
+
+	
+	<!-- 설명 -->
+	<div>
+		
+		<h3>Team : *송은진, 김민영, 오예린, 윤대원 </h3>
+		<h3>개발 일정 : <strong><i>2021.03.15 ~ 03.25</i>  </strong></h3>
+	<br />
+			
+		<h3>기획의도</h3>
+		<ul>
+					<li>날씨 변화와 야구 경기력에 관련된 기존에 연구결과에 따르면, 타자 · 투수들의 경기력은 <strong>온도 습도에 많은 영향을 받는다고 발표했다.</strong></li>
+					<li>따라서 온도가 높으면, 타자들의 경기력, 홈런 빈도수, 장타력,  야구공의 비거리와 득점률이 향상된다.</li>
+					<li>이러한 기존의 연구결과들을 통해, 날씨(온도, 강수량, 풍향, 풍속, 습도, 기압, 대기)에 따른 타자 투수들을 경기력을 머신러닝 및 딥러닝으로 학습한다.</li>
+
+		</ul>
+
+		
+			<hr />
+		
+		<h3>목표</h3>
+				<ul>
+			<li>날씨에 따른 자신, 라이벌 팀의 승/패를 예측한다.</li>
+			<li>분석된 승률예측을 통해 야구관람의 기대감을 상승할 수 있다.</li>
+		</ul>
+			<hr />
+		
+				<h3>개발과정</h3>
+			데이터 수집 &gt; 데이터 가공 &gt; 모델 선택 &gt; 학습 &gt; 평가 &gt; 웹을 통한 시각화
+		
+			<hr />
+		
+			<h3>데이터 수집</h3>
+		<ul>
+			<li>Data Collection - 1. 네이버 스포츠 야구페이지 </li>
+			<li><a href="https://sports.news.naver.com/kbaseball/schedule/index.nhn">https://sports.news.naver.com/kbaseball/schedule/index.nhn</a></li>
+			<li>경기시간, 구단명, 지역, 안타, 홈런, 도루, 삼진, 병살, 실책, 승패결과 등 크롤링</li>
+						<li>Data Collection - 2. 기상청 기상자료개방포털 </li>
+			<li><a href="https://data.kma.go.kr/cmmn/main.do">https://data.kma.go.kr/cmmn/main.do</a></li>
+			<li>지역 및 날짜에 따른 온도, 강수량, 풍속, 풍향, 습도, 기압, 지면온도 요소 수집</li>
+		</ul>
+		
+		<hr />
+		
+		<h3>데이터 가공 및 전처리</h3>
+		<ul>
+			<li>올스타전 데이터 제외</li>
+			<li> 경기결과 중 무승부 데이터 제외</li>
+			<li>경기 날짜, 시간별로 야구데이터 + 날씨데이터를 합쳐 .csv 형태로 가공</li>
+
+		</ul>
+		
+		<hr />
+		<h3>상관 관계</h3>
+		<ul>
+			<li><b>날씨와 승패예측</b> -   경기결과와 (온도, 습도량, 강수량) 을 상관관계 분석 결과  높은 상관관계가 나왔다. (50% 이상) </li>
+			<li><b>날씨와 야구 경기력(홈런,안타 등) 예측</b> -  각 야구경기력 요소들과 날씨요소(온도, 습도, 강수량 등)의 상관관계 분석 결과 저조한 예측확률이 나와 이 주제로는 분석 할 수 없다고 판단하였다.</li>
+
+		</ul>
+		
+		
+		
+				<hr />
+		<h3>모델 선택</h3>
+		<ul>
+			<li>1. 승패예측을 위해  분류모델을 사용하였다.</li>
+			<li>SVM, KNN, SGD, ADBOOST, GRADIENTBOOST, XGBOOST, NAIVE BAYSE 등의  여러 분류모델을 선택하였다.</li>
+			<li>2. 경기 당 홈런이나 안타 수를 예측하기 위해 회귀모델을 사용하였다.</li>
+			<li>Linear Regression, Logistic Regression, 트리모델, Ridge, Lasso 등의 다양한 머신러닝 회귀모델과 딥러닝 선형 회귀 모델을 선택하였다. </li>
+			<li>하지만 상관관계가 너무 낮고,  0개의 저조한 예측결과를 보였다. </li>
+
+		</ul>
+		
+						<hr />
+		<h3>모델 학습 및 평가</h3>
+		<ul>
+			<li><strong>승패 예측 </strong>-  XGBOOST 모델학습 결과 76% 대의 준수한 예측확률이 나타났다.</li>
+			<li><strong>야구경기력 예측</strong> - 딥러닝 선형회귀분석 학습 결과,  0개의 저조한 예측결과를 보였다.</li>
+
+		</ul>
+		
+				<hr />
+		<h3><b>피타고리안 기대 승률</b> </h3>
+		<ul>
+			<li>세이버메트릭스의 창시자 빌 제임스가 고안해낸 기대승률 계산식</li>
+			<li>머신러닝 분석 결과와 피타고리안 승률을 비교했을 때, 둘의 결과가 비슷함을 보였다.</li>
+
+		</ul>
+		
+		
+		<hr />
+		<h3>FLASK  연동</h3>
+		<ul>
+			<li>웹에서 날씨예보를 나타내기 위해, 머신러닝 결과를 웹에서 나타내기 위해 FLASK를 이용해 웹과연동을 하였다. </li>
+			<li><strong>웹과 날씨 연동</strong> - FLASK를 이용해 <a href="http://www.data.go.kr">공공데이터포털</a>의 동네예보 API를 호출하여  웹에서 날씨예보를 나타낸다.</li>
+			<li><strong>웹과 승패예측 결과 연동</strong> - 웹에서 입력된 데이터를 머신러닝 모델에 입력하고 산출된 결과값을 웹에 다시 나타내기 위해 FLASK를 이용하였다.  </li>
+
+		</ul>
+		
+
+		
+	<hr />	
+	</div>
+	
+	
+	
+	
+	
+<!-- Image -->
+	<image src="/assets/images/project_yagu1.jpg" alt="">
+
+
+																							
+<!--video-->
+	<div class="inner">
+		<span class="image fit">
+<iframe width="1215" height="683" src="https://www.youtube.com/embed/3qGf2XQnQCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+			</span>										
+	</div>
+</image></div>
+</p>
+	</div>
+</section>
+
+</div>
+
+    <!-- Contact -->
+<section id="contact">
+	<div class="inner">
+		<section>
+			<form action="https://formspree.io/tulip4748@naver.com" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form>
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="#">tulip4748@naver.com</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-phone"></span>
+					<h3>Phone</h3>
+					<span>+82(010) 2772-4456</span>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Address</h3>
+					<span>
+					
+					
+					
+					
+					
+					    Gwangju, South Korea
+					
+					</span>
+				</div>
+			</section>
+		</section>
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://gitlab.com/ohyeses" class="icon alt fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
+				
+				
+				<li><a href="https://github.com/ohyeses" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				
+				
+				
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Yerin OH Portfolio</li>
+				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.scrolly.min.js"></script>
+	<script src="/assets/js/jquery.scrollex.min.js"></script>
+	<script src="/assets/js/skel.min.js"></script>
+	<script src="/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="/assets/js/main.js"></script>
+
+
+</body>
+
+</html>
