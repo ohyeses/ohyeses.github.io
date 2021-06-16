@@ -123,7 +123,6 @@ nav-menu: true
 				<h5>
 					<a href="http://www.kjca.co.kr/">Smart Human Resources Development,  스마트인재개발원</a>
 				</h5>
-				<I>	Nov, 2020 - May, 2021 • 6 mos</I> <br>
 				<I>	2020.11 - 2021.05 • 6 mos</I> <br>
 				<I>	Gwangju, Korea</I> <br> <br>
 				- 기초 프로그래밍(Java, Python, SQL응용) <br>
