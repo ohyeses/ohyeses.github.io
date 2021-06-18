@@ -37,7 +37,7 @@ layout: post
 		
 			<hr/>
 		
-			<h3>데이터 수집</h3>
+			<h3>데이터 수집  <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle"> </h3>
 		<ul>
 			<li>야구 통계 사이트 <a href="statiz.co.kr">statiz</a>에 투수들의 연봉과 경기력을 크롤링 하였다.</li>
 		</ul>
@@ -77,8 +77,60 @@ layout: post
 		
 
 		
+				<h3>모델 학습 및 평가</h3>
+		<ul>
+			<li><strong>승패 예측 </strong>-  XGBOOST 모델학습 결과 76% 대의 준수한 예측확률이 나타났다.</li>
+			<li><strong>야구경기력 예측</strong> - 딥러닝 선형회귀분석 학습 결과,  0개의 저조한 예측결과를 보였다.</li>
 
+		</ul>
+		
+				<hr />
+		
+	<h3>웹 서비스 구현(Front-End)</h3>
+		<ul type="square">
+			<li>[기능 #1] UI/UX 구현
+				<ul>
+					<li>전자정부 표준프레임워크와 SPRING를 이용한 웹 페이지 구현</li>
+					<ul>▶ 로그인 / 회원가입  페이지 <br>
+						아이디, 비밀번호, 이름, 나이, 응원 하는 팀을 입력해 회원가입을 한다.<br> <br>
+						▶ 게시물 작성 페이지   <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle"> <br>
+						로그인한 회원정보로 제목과 내용을 입력하고 게시물을 작성한다. <br>
+					날짜 선택 > 지연 선택 > 팀 선택 후 예측하기 버튼을 눌러 두 팀의 승패를 보여준다.<br><br>
+						▶ 연봉 예측 페이지  <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle"> <br>
+						팀 선택 > 선수 선택 후 투수의 선수정보와 작년연봉과 실제 연봉, 그리고 선수의 경기력을 토대로 예측한 예측연봉을 시각화한 그래프로 볼 수 있다.
+					</ul>
+						<li>FLASK  연동</li>
+							<ul>
+<pre>▶ 웹에서 투수 이름을 머신러닝 모델에 입력하고 산출된 결과값을 웹에 다시 나타내기 위해 FLASK를 이용하였다. </pre>
+					</ul>
+				</ul>
+			</li>
+		</ul>
+				<ul type="square">
+			<li>[기능 #2] 데이터베이스
+				<ul>
+					<li>MySQL DB와 JDBC를 통한 회원정보,  게시판 등록 정보, 선수연봉 데이터 연동</li>
+				</ul>
+			</li>
+				
+	
+		</ul>
+		
+		
 	<hr/>	
+		<h3>개발환경</h3>
+<ul>
+	<li>eGovFrame-3.9.0</li>
+    <li>Eclipse 4.8.0(Photon)</li>
+    <li>Spring Framework v4.3.22</li>
+    <li>python 3.7</li>
+	<li>Jupyter notebook 6.4.0</li>
+
+</ul>
+		
+			<hr/>	
+		
+		
 	</div>
 	
 	

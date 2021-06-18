@@ -135,6 +135,16 @@ layout: post
 
 		
 	<hr/>	
+		
+		<h3> 개발환경</h3>
+<ul>
+    <li>python 3.7</li>
+    <li>Eclipse 4.17 </li>
+    <li>Jupyter notebook 6.4.0</li>
+</ul>
+
+			<hr/>	
+		
 	</div>
 	
 	
