@@ -1,9 +1,4 @@
----
-title: 머신러닝을 활용한 야구 승패예측 서비스
-layout: post
----
-
-<!-- Main -->
+I"$<!-- Main -->
 <div id="main09">
 
 	
@@ -12,7 +7,7 @@ layout: post
 		
 		<h3>Team : *송은진, 김민영, 오예린, 윤대원 </h3>
 		<h3>개발 일정 : <strong><i>2021.03.15 ~ 03.25</i>  </strong></h3>
-	<br>
+	<br />
 			
 		<h3>기획의도</h3>
 		<ul>
@@ -23,21 +18,21 @@ layout: post
 		</ul>
 
 		
-			<hr/>
+			<hr />
 		
 		<h3>목표</h3>
 				<ul>
 			<li>날씨에 따른 자신, 라이벌 팀의 승/패를 예측한다.</li>
 			<li>분석된 승률예측을 통해 야구관람의 기대감을 상승할 수 있다.</li>
 		</ul>
-			<hr/>
+			<hr />
 		
 				<h3>개발과정</h3>
-			데이터 수집 > 데이터 가공 > 모델 선택 > 학습 > 평가 > 웹을 통한 시각화
+			데이터 수집 &gt; 데이터 가공 &gt; 모델 선택 &gt; 학습 &gt; 평가 &gt; 웹을 통한 시각화
 		
-			<hr/>
+			<hr />
 		
-			<h3>데이터 수집 <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle"></h3> 
+			<h3>데이터 수집 <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle" /></h3> 
 		<ul>
 			<li>Data Collection - 1. 네이버 스포츠 야구페이지 </li>
 			<li><a href="https://sports.news.naver.com/kbaseball/schedule/index.nhn">https://sports.news.naver.com/kbaseball/schedule/index.nhn</a></li>
@@ -92,15 +87,15 @@ layout: post
 		<ul type="square">
 			<li>[기능 #1] UI/UX 구현
 				<ul>
-					<li>HTML & JSP를 이용한 웹 페이지 구현</li>
-					<ul>▶ 승률 예측 페이지 <br>
-					날짜 선택 > 지연 선택 > 팀 선택 후 예측하기 버튼을 눌러 두 팀의 승패를 보여줌. <br>
-						▶ 날씨에 따른 야구 경기력 예측 페이지  <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle"> <br>
+					<li>HTML &amp; JSP를 이용한 웹 페이지 구현</li>
+					<ul>▶ 승률 예측 페이지 <br />
+					날짜 선택 &gt; 지연 선택 &gt; 팀 선택 후 예측하기 버튼을 눌러 두 팀의 승패를 보여줌. <br />
+						▶ 날씨에 따른 야구 경기력 예측 페이지  <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle" /> <br />
 						구단 별 기온/습도/강수량 변화에 따른 홈런 개수를  시각화해서 보여줌.
 					</ul>
 						<li>FLASK  연동</li>
 							<ul>
-<pre>▶ 동네예보 API를 호출하여 지역별 날씨예보를 나타냄. <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle">
+<pre>▶ 동네예보 API를 호출하여 지역별 날씨예보를 나타냄. <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle" />
 ▶ 각 구단별 승, 패, 승률 등을 통한 올해 총합 순위를 나타냄.
 ▶ 승패예측을 하기 위하여 웹에서 입력된 데이터를 머신러닝 모델에 입력하고 산출된 결과값을 웹에 다시 나타냄.</pre>
 					</ul>
@@ -134,7 +129,7 @@ layout: post
 		
 
 		
-	<hr/>	
+	<hr />	
 		
 		<h3> 개발환경</h3>
 <ul>
@@ -143,7 +138,7 @@ layout: post
     <li>Jupyter notebook 6.4.0</li>
 </ul>
 
-			<hr/>	
+			<hr />	
 		
 	</div>
 	
@@ -152,13 +147,15 @@ layout: post
 	
 	
 <!-- Image -->
-	<image src = "/assets/images/project_yagu1.jpg" alt="">
+	<image src="/assets/images/project_yagu1.jpg" alt="">
 
 
 																							
 <!--video-->
-	<div class = "inner">
+	<div class="inner">
 		<span class="image fit">
-<iframe  width="1215" height="683" src="https://www.youtube.com/embed/3qGf2XQnQCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1215" height="683" src="https://www.youtube.com/embed/3qGf2XQnQCM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 			</span>										
 	</div>
+</image></div>
+:ET

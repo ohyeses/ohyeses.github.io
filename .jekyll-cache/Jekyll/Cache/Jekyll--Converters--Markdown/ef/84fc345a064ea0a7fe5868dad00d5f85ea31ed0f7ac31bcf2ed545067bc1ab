@@ -1,9 +1,4 @@
----
-title: 머신러닝과 딥러닝을 활용한 선수연봉 예측 서비스
-layout: post
----
-
-<!-- Main -->
+I"l<!-- Main -->
 <div id="main09">
 	
 	
@@ -12,7 +7,7 @@ layout: post
 		
 		<h3>Team : *오예린, 송은진, 김동식, 윤대원 </h3>
 	<h3>개발 일정 : <strong><i>2021.04.21 ~ 05.21</i>  </strong></h3>
-	<br>
+	<br />
 			
 		<h3>기획의도</h3>
 		<ul>
@@ -23,21 +18,21 @@ layout: post
 		</ul>
 		
 		
-			<hr/>
+			<hr />
 		
 		<h3>목표</h3>
 				<ul>
 			<li>KBO 투수들의 경기력과 연봉과의 관계를 알아본다.</li>
 			<li>연봉에 중요한 영향을 미치는 경기력 요소를 이용하여 회귀분석을 통해 작년연봉과 올해연봉을 토대로 선수별 연봉정보를 예측하여 시각화를 한다.</li>
 		</ul>
-			<hr/>
+			<hr />
 		
 				<h3>개발과정</h3>
-			데이터 수집 > 데이터 가공 > 모델 선택 > 학습 > 평가 > 웹을 통한 시각화
+			데이터 수집 &gt; 데이터 가공 &gt; 모델 선택 &gt; 학습 &gt; 평가 &gt; 웹을 통한 시각화
 		
-			<hr/>
+			<hr />
 		
-			<h3>데이터 수집  <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle"> </h3>
+			<h3>데이터 수집  <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle" /> </h3>
 		<ul>
 			<li>야구 통계 사이트 <a href="statiz.co.kr">statiz</a>에 투수들의 연봉과 경기력을 크롤링 하였다.</li>
 		</ul>
@@ -71,7 +66,7 @@ layout: post
 		<h3>FLASK 연동 및 시각화</h3>
 		<ul>
 			<li>100명이 넘는 투수들의 작년 연봉, 예측 연봉, 실제 연봉 분석 결과를 쉽게 이해 할 수 있게 그래프로 시각화하였다.</li>
-			<li>웹에서 각 구단 별 투수 이름을 선택하여 투수 이름을 머신러닝 모델에 입력하고 산출된 결과값을 웹에 다시 나타내기 위해 <br> FLASK를 이용하였다. </li>
+			<li>웹에서 각 구단 별 투수 이름을 선택하여 투수 이름을 머신러닝 모델에 입력하고 산출된 결과값을 웹에 다시 나타내기 위해 <br /> FLASK를 이용하였다. </li>
 
 		</ul>
 		
@@ -91,13 +86,13 @@ layout: post
 			<li>[기능 #1] UI/UX 구현
 				<ul>
 					<li>전자정부 표준프레임워크와 SPRING를 이용한 웹 페이지 구현</li>
-					<ul>▶ 로그인 / 회원가입  페이지 <br>
-						아이디, 비밀번호, 이름, 나이, 응원 하는 팀을 입력해 회원가입을 한다.<br> <br>
-						▶ 게시물 작성 페이지   <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle"> <br>
-						로그인한 회원정보로 제목과 내용을 입력하고 게시물을 작성한다. <br>
-					날짜 선택 > 지연 선택 > 팀 선택 후 예측하기 버튼을 눌러 두 팀의 승패를 보여준다.<br><br>
-						▶ 연봉 예측 페이지  <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle"> <br>
-						팀 선택 > 선수 선택 후 투수의 선수정보와 작년연봉과 실제 연봉, 그리고 선수의 경기력을 토대로 예측한 예측연봉을 시각화한 그래프로 볼 수 있다.
+					<ul>▶ 로그인 / 회원가입  페이지 <br />
+						아이디, 비밀번호, 이름, 나이, 응원 하는 팀을 입력해 회원가입을 한다.<br /> <br />
+						▶ 게시물 작성 페이지   <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle" /> <br />
+						로그인한 회원정보로 제목과 내용을 입력하고 게시물을 작성한다. <br />
+					날짜 선택 &gt; 지연 선택 &gt; 팀 선택 후 예측하기 버튼을 눌러 두 팀의 승패를 보여줌. <br /><br />
+						▶ 연봉 예측 페이지  <img src="/assets/images/myrole.png" width="8%" height="8%" style="vertical-align:middle" /> <br />
+						팀 선택 &gt; 선수 선택 후 투수의 선수정보와 작년연봉과 실제 연봉, 그리고 선수의 경기력을 토대로 예측한 예측연봉을 시각화한 그래프로 볼 수 있다.
 					</ul>
 						<li>FLASK  연동</li>
 							<ul>
@@ -117,7 +112,7 @@ layout: post
 		</ul>
 		
 		
-	<hr/>	
+	<hr />	
 		<h3>개발환경</h3>
 <ul>
 	<li>eGovFrame-3.9.0</li>
@@ -128,7 +123,7 @@ layout: post
 
 </ul>
 		
-			<hr/>	
+			<hr />	
 		
 		
 	</div>
@@ -137,13 +132,15 @@ layout: post
 
 	
 <!-- Image -->
-	<image src = "/assets/images/project_yagu2.jpg" alt="">
+	<image src="/assets/images/project_yagu2.jpg" alt="">
 
 
 																							
 <!--video-->
-	<div class = "inner">
+	<div class="inner">
 		<span class="image fit">
-<iframe  width="1215" height="683" src="https://www.youtube.com/embed/7AFCwXnNCgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1215" height="683" src="https://www.youtube.com/embed/7AFCwXnNCgg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 			</span>										
 	</div>
+</image></div>
+:ET
